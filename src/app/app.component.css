@@ -55,6 +55,9 @@
     box-sizing: inherit;
     position: relative;
     background: #eeeeee6d;
+    border: 2px solid #eee;
+    border-radius: 1rem;
+    padding: 20px;
   }
 
   .content {
@@ -63,10 +66,10 @@
   }
 
   .divider {
-    height: 5px;
+    height: 3px;
     width: 100%;
     background: var(--red-to-pink-to-purple-horizontal-gradient);
-    margin-block: 1.5rem;
+    margin-block: 1rem;
   }
 
   .pill-group {
@@ -80,17 +83,14 @@
     display: flex;
     align-items: center;
     --pill-accent: var(--bright-blue);
-    background: color-mix(in srgb, var(--pill-accent) 5%, transparent);
+    background: color-mix(in srgb, var(--pill-accent) 10%, transparent);
     color: var(--pill-accent);
-    padding-inline: 0.75rem;
-    padding-block: 0.375rem;
-    border-radius: 2.75rem;
+    padding-inline: 0.40rem;
+    padding-block: 0.40rem;
     border: 0;
     transition: background 0.3s ease;
     font-family: var(--inter-font);
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.4rem;
     letter-spacing: -0.00875rem;
     text-decoration: none;
